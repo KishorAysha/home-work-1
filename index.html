@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Home Work 1</title>
+</head>
+<body>
+    <div class="container" >
+        <div class="modal" id="mymodel">
+             <div class="modal-dialog modal-dailog-center">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="text-center text-primary">Make An Appointment</h3>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <label><i class="fa fa-user"></i>Username</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label><i class="fa fa-lock"></i>Password</label>
+                                <input type="password" class="form-control" placeholder="">
+                            </div>
+                            <div class="form-group">
+                                <label><i class="fa fa-envelope"></i>Email</label>
+                                <input type="email" class="form-control" placeholder="">
+                            </div>
+                        </form>
+
+                    </div>
+
+                    <div class="modal-footer justify-content-center">
+                        <button class="btn btn-danger" data-target="modal">SignUp</button>
+                    </div>
+                </div>
+             </div>
+        </div>
+    </div>
+    <!--Header Start-->
+    <header class="main-header">
+        
+          <div class="h-top-main">
+               <div class="h-top-sub">
+                   <div class="h-top-icon">
+                        <a href="#"> <i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                   </div>
+                   <div class="h-top-source">
+                          <div class="email">
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                            <p> info@docmed.com </p>
+                          </div>
+                          <div class="phone">
+                            <a href="#"><i class="fas fa-phone-alt"></i></a>
+                            <p>160160</p>
+                          </div>
+                   </div>
+               </div>
+          </div>
+
+          <div class="h-bottom-main">
+                   
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+                </label>
+                
+              
+              <div class="h-bottom-sub">
+                
+
+                  <div class="h-bottom-logo">
+                    <img src="./img/logo.webp" alt="Logo">
+                  </div>
+                  
+                  <div class="navbar">
+
+                    <ul class="ul1">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Department</a></li>
+                        <li><a href="#">Blog<i class="fas fa-angle-down"></i></a>
+                            <ul class="ul2">
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Signle-Blog</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Pages<i class="fas fa-angle-down"></i></a>
+                            <ul class="ul2">
+                                <li><a href="#">Elements</a></li>
+                                <li><a href="#">About</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Doctors</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+        
+                  <div class="h-bottom-button">
+                      <button type="button" data-target="#mymodel" data-toggle="modal">Make an Appointment</button>
+                  </div>
+              </div>
+          </div>
+    </header>
+    <!--Header End-->
+    <!---------------------------------------------------------------->
+    <!--Slider start -->
+
+     <div class="slidershow middle">
+         <div class="slides">
+             <input class="input1" type="radio" name="r" id="r1" checked>
+             <input class="input1" type="radio" name="r" id="r2">
+             <input class="input1" type="radio" name="r" id="r3">
+            <div class="slide s1">
+                 <div class="text1">
+                     <h3>
+                        <span>Health care</span><br>
+                        
+                           For Hole Family 
+                     </h3>
+                     <p>
+                        In healthcare sector, service excellence is the facility of 
+                        <br>
+                        the hospital as
+                        healthcare service provider to consistently.
+                     </p>
+                     <br>
+                     <div class="h-bottom-button slider-btn">
+                        <button type="button">Check Our Services</button>
+                    </div>
+                 </div>
+                
+            </div>
+            <div class="slide s2">
+                <div class="text1">
+                    <h3>
+                       <span>Health care</span><br>
+                       
+                          For Hole Family 
+                    </h3>
+                    <p>
+                       In healthcare sector, service excellence is the facility of 
+                       <br>
+                       the hospital as
+                       healthcare service provider to consistently.
+                    </p>
+                    <br>
+                    <div class="h-bottom-button slider-btn">
+                       <button type="button">Check Our Services</button>
+                   </div>
+                </div>
+            </div>
+            <div class="slide s3">
+                <div class="text1">
+                    <h3>
+                       <span>Health care</span><br>
+                       
+                          For Hole Family 
+                    </h3>
+                    <p>
+                       In healthcare sector, service excellence is the facility of 
+                       <br>
+                       the hospital as
+                       healthcare service provider to consistently.
+                    </p>
+                    <br>
+                    <div class="h-bottom-button slider-btn">
+                       <button type="button">Check Our Services</button>
+                   </div>
+                </div>
+            </div>
+
+            <div class="navigation">
+                <label for="r1" class="bar"></label>
+                <label for="r2" class="bar"></label>
+                <label for="r3" class="bar"></label>
+            </div>
+
+        </div>
+     </div>
+    <!--Slider End -->
+    <!---------------------------------------------------------------->
+    <!--Section-1 Start-->
+       <div class="section1">
+           
+                <div class="section1-sub sub1">
+                    <i class="fas fa-heartbeat"></i>
+                    <h1>Hospitality</h1>
+                    <p>Clinical excellence must be the priority <br>for any health care service provider.</p>
+
+                    <div class="h-bottom-button button1">
+                        <button type="button">Apply For A Bed</button>
+                    </div>
+                </div>
+                <div class="section1-sub sub2">
+                    <i class="fas fa-blender-phone"></i>
+                    <h1>Emergency Care</h1>
+                    <p>Clinical excellence must be the priority <br>for any health care service provider.</p>
+
+                    <div class="h-bottom-button button2">
+                        <button type="button">+10 672 356 3567</button>
+                    </div>
+                </div>
+                <div class="section1-sub sub3">
+                    <i class="fas fa-medkit"></i>
+                    <h1>Chamber Service</h1>
+                    <p>Clinical excellence must be the priority <br>for any health care service provider.</p>
+                    
+                    <div class="h-bottom-button button3">
+                        <button type="button">Make an Appointment</button>
+                    </div>
+                </div>
+           
+       </div>
+    <!--Section-1 End-->
+    <!---------------------------------------------------------------->
+    <!--Section-2 Start-->
+      <div class="section2">
+          <div class="section2-main">
+              <div class="section2-sub sec2-sub1">
+                    <div class="section2-sub1">
+                        <img src="/img/section2-1.webp" alt="">
+                    </div>
+                    <div class="section2-sub1 sub2">
+                    <img src="/img/section2-2.webp" alt="">
+                    </div>
+              </div>
+              
+              <div class="section2-sub sec2-sub2">
+                  <h2>Welcome to Docmed</h2>
+                  <h3>Best Care For Your<br>
+                    Good Health</h3>
+                  <p>Esteem spirit temper too say adieus who direct esteem. It esteems luckily or picture placing drawing. Apartments frequently or motionless on reasonable projecting expression.</p>
+                    <ul>
+                        <li><i class="far fa-check-circle"></i>Apartments frequently or motionless.</li>
+                        <li><i class="far fa-check-circle"></i>Duis aute irure dolor in reprehenderit in voluptate.</li>
+                        <li><i class="far fa-check-circle"></i>Voluptatem quia voluptas sit aspernatur.</li>
+                    </ul>
+                  <div class="h-bottom-button section2-btn">
+                    <button type="button">Learn More</button>
+                </div>
+              </div>
+          </div>
+      </div>
+    <!--Section-2 End-->
+    <!---------------------------------------------------------------->
+    <!--Section-3 Start-->
+    <div class="section3">
+        <div class="text2">
+            <h3>Our Departments</h3>
+            <p class="sec3-p1">Esteem spirit temper too say adieus who direct esteem. </p>
+            <p>It esteems luckily or picture placing drawing.</p>
+        </div>
+
+        <div class="section3-main">
+            <div class="section3-sub">
+                <div class="img-div">
+                    <img src="./img/sec3-1.png" alt="">
+                </div>
+              
+
+               <div class="sec3-text1">
+                    <h3><a href="#">Eye Care</a></h3>
+                    <p>Esteem spirit temper too say adieus who direct esteem.</p>
+                    <a class="sec3-a2" href="#">Learn More</a>
+               </div>
+            </div>
+            
+            <div class="section3-sub">
+                <div class="img-div">
+                  <img src="./img/sec3-2.webp" alt="">
+                </div>
+                
+                <div class="sec3-text1">
+                    <h3><a href="#">Physical Therapy</a></h3>
+                    <p>Esteem spirit temper too say adieus who direct esteem.</p>
+                    <a class="sec3-a2" href="#">Learn More</a>
+               </div>
+            </div>
+            <div class="section3-sub">
+                <div class="img-div">
+                    <img src="./img/sec3-3.png" alt="">
+                </div>
+                
+                <div class="sec3-text1">
+                    <h3><a href="#">Dental Care</a></h3>
+                    <p>Esteem spirit temper too say adieus who direct esteem.</p>
+                    <a class="sec3-a2" href="#">Learn More</a>
+               </div>
+            </div>
+            <div class="section3-sub">
+                <div class="img-div">
+                    <img src="./img/sec3-4.webp" alt="">
+                </div>
+                
+                <div class="sec3-text1">
+                    <h3><a href="#">Diagnostic Test</a></h3>
+                    <p>Esteem spirit temper too say adieus who direct esteem.</p>
+                    <a class="sec3-a2" href="#">Learn More</a>
+               </div>
+            </div>
+            <div class="section3-sub">
+                <div class="img-div">
+                    <img src="./img/sec3-5.png" alt="">
+                </div>
+                
+                <div class="sec3-text1">
+                    <h3><a href="#">Skin Surgery</a></h3>
+                    <p>Esteem spirit temper too say adieus who direct esteem.</p>
+                    <a class="sec3-a2" href="#">Learn More</a>
+               </div>
+            </div>
+            <div class="section3-sub">
+                <div class="img-div">
+                    <img src="./img/sec3-6.png" alt="">
+                </div>
+                
+                <div class="sec3-text1">
+                    <h3><a href="#">Surgery Service</a></h3>
+                    <p>Esteem spirit temper too say adieus who direct esteem.</p>
+                    <a class="sec3-a2" href="#">Learn More</a>
+               </div>
+            </div>
+        </div>
+    </div>
+    <!--Section-3 End-->
+    <!------------------------------------------------------------------------------------>
+    <!--Slider-2 Start-->
+    <div class="reletive-div">
+        <div class="slidershow middle2">
+            <div class="slides respon">
+                <input class="input2" type="radio" name="r2" id="r12" checked>
+                <input class="input2" type="radio" name="r2" id="r22">
+                <input class="input2" type="radio" name="r2" id="r32">
+               <div class="slide s12">
+                    <div class="text1 slider2" >
+                        <div class="sl2-icon">
+                            <i class="fas fa-quote-right"></i>
+                        </div>
+                        <p>Donec imperdiet congue orci consequat mattis. Donec rutrum porttitor 
+                            <br>
+                            sollicitudin. Pellentesque id dolor tempor sapien feugiat ultrices nec sed neque.
+                            <br>
+                            Fusce ac mattis nulla. Morbi eget ornare dui. </p>
+                        <br>
+                        <h4>Asana Karim</h4>
+                    </div>
+                   
+               </div>
+               <div class="slide s22">
+                <div class="text1 slider2 " id="sl2-text">
+                    <div class="sl2-icon">
+                        <i class="fas fa-quote-right"></i>
+                    </div>
+                    <p>Donec imperdiet congue orci consequat mattis. Donec rutrum porttitor 
+                        <br>
+                        sollicitudin. Pellentesque id dolor tempor sapien feugiat ultrices nec sed neque.
+                        <br>
+                        Fusce ac mattis nulla. Morbi eget ornare dui. </p>
+                    <br>
+                    <h4>Asana Karim</h4>
+                </div>
+               </div>
+               <div class="slide s32">
+                <div class="text1 slider2" id="sl2-text">
+                    <div class="sl2-icon">
+                        <i class="fas fa-quote-right"></i>
+                    </div>
+                    <p>Donec imperdiet congue orci consequat mattis. Donec rutrum porttitor 
+                        <br>
+                        sollicitudin. Pellentesque id dolor tempor sapien feugiat ultrices nec sed neque.
+                        <br>
+                        Fusce ac mattis nulla. Morbi eget ornare dui. </p>
+                    <br>
+                    <h4>Asana Karim</h4>
+                </div>
+               </div>
+    
+               <div class="navigation">
+                   <label for="r12" class="bar"></label>
+                   <label for="r22" class="bar"></label>
+                   <label for="r32" class="bar"></label>
+               </div>
+    
+           </div>
+        </div>
+    </div>
+    <!--Slider-2 End-->
+    <!--------------------------------------------------------------->
+    <!--Tabs section Start-->
+    <div class="tabs-section">
+        
+    <div class="mytabs">
+             <input type="radio" name="mytabs" id="tabfree" checked="checked">
+             <label for="tabfree">Excellent services</label>
+        
+        
+        <div class="tab">
+            <div class="tab1-div1">
+                <div class="icon-div">
+                    <i class="fas fa-briefcase-medical"></i>
+                </div>
+                <h3>Leading edge care for Your family</h3>
+                <p>Esteem spirit temper too say adieus who direct esteem. It esteems luckily picture placing drawing. Apartments frequently or motionless on reasonable projecting expression.</p>
+            </div>
+            
+            <div class="img-div">
+                <img src="./img/tab-image.webp" alt="">
+            </div>
+        </div>
+
+        <input type="radio" name="mytabs" id="tabsilver">
+        
+            <label for="tabsilver">Qualified Doctors</label>
+       
+        
+        <div class="tab">
+            <div class="tab1-div1">
+                <div class="icon-div">
+                    <i class="fas fa-briefcase-medical"></i>
+                </div>
+                <h3>Leading edge care for Your family</h3>
+                <p>Esteem spirit temper too say adieus who direct esteem. It esteems luckily picture placing drawing. Apartments frequently or motionless on reasonable projecting expression.</p>
+            </div>
+            
+            <div class="img-div">
+                <img src="./img/tab-image.webp" alt="">
+            </div>
+        </div>
+
+        <input type="radio" name="mytabs" id="tabgold">
+       
+            <label for="tabgold">Emergency Department</label>
+       
+        
+        <div class="tab">
+            <div class="tab1-div1">
+                <div class="icon-div">
+                    <i class="fas fa-briefcase-medical"></i>
+                </div>
+                <h3>Leading edge care for Your family</h3>
+                <p>Esteem spirit temper too say adieus who direct esteem. It esteems luckily picture placing drawing. Apartments frequently or motionless on reasonable projecting expression.</p>
+            </div>
+            
+            <div class="img-div">
+                <img src="./img/tab-image.webp" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+    <!--Tabs section End-->
+    <!---------------------------------------------------------------------------->
+    <!--Doctors Section Start-->
+    <div class="section33">
+        <div class="text23">
+            <h3>Expert Doctors</h3>
+        </div>
+
+        <div class="section3-main3">
+            <div class="section3-sub3">
+                <div class="img-div3">
+                    <img src="./img/ban2.webp" alt="">
+                </div>
+              
+
+               <div class="sec3-text13">
+                    <h3>Mirazul Alom</h3>
+                    <span>Neurologist</span>
+               </div>
+            </div>
+            
+            <div class="section3-sub3">
+                <div class="img-div3">
+                  <img src="./img/ban3.webp" alt="">
+                </div>
+                
+                <div class="sec3-text13">
+                    <h3>Mirazul Alom</h3>
+                    <span>Neurologist</span>
+               </div>
+            </div>
+            <div class="section3-sub3">
+                <div class="img-div3">
+                    <img src="./img/ban.webp" alt="">
+                </div>
+                
+                <div class="sec3-text13">
+                    <h3>Mirazul Alom</h3>
+                    <span>Neurologist</span>
+               </div>
+            </div>
+            <div class="section3-sub3">
+                <div class="img-div3">
+                    <img src="./img/ban5.png" alt="">
+                </div>
+                
+                <div class="sec3-text13">
+                    <h3>Mirazul Alom</h3>
+                    <span>Neurologist</span>
+               </div>
+            </div>
+            
+        </div>
+    </div>
+    <!--Doctors Section End-->
+    <!-------------------------------------------------------------------------->
+    <!--Section-5 Start-->
+    <div class="section5">
+        <div class="sec5-div1 sec5-img1">
+            <div class="sec5-div1-sub ">
+              <h1>For Any Emergency Contact</h1>
+              <span>Esteem spirit temper too say adieus.</span>
+              <a href="#">+10 378 4673 467</a>
+            </div>
+        </div>
+        <div class="sec5-div1 sec5-img2">
+            <div class="sec5-div1-sub">
+                <h1>Make an Online Appointment</h1>
+                <span>Esteem spirit temper too say adieus.</span>
+                <a href="#">Make An Appointment</a>
+            </div>
+        </div>
+    </div>
+    <!--Section-5 End-->
+    <!--------------------------------------------------------------------------->
+    <!--Footer start-->
+    <footer>
+        <div class="upper-footer">
+            <div class="footer-sub">
+                <div class="footer-div basis1">
+                    <img src="./img/footer-logo.webp" alt="">
+                    <p>Firmament morning sixth subdue darkness creeping gathered divide.</p>
+                    <a><i class="fab fa-facebook"></i></a> 
+                    <a><i class="fab fa-twitter"></i></a> 
+                    <a><i class="fab fa-instagram"></i></a>  
+                </div>
+                <div class="footer-div basis2">
+                    <h3>Departments</h3>
+                    <a href="#">Eye Care</a><br><br>
+                    <a href="#">Skin Care</a><br><br>
+                    <a href="#">Pathology</a><br><br>
+                    <a href="#">Medicine</a><br><br>
+                    <a href="#">Dental</a>
+
+                </div>
+                <div class="footer-div basis2">
+                    <h3>Useful Links</h3>
+                    <a href="#">About</a><br><br>
+                    <a href="#">Blog</a><br><br>
+                    <a href="#">Services</a><br><br>
+                    <a href="#">Contact</a><br><br>
+                    <a href="#">Appoinments</a>
+                </div>
+                <div class="footer-div basis2 basis22">
+                    <h3>Address</h3>
+                    <p>200, D-block, Green lane USA<br>
+                        +10 367 467 8934<br>
+                        docmed@contact.com</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="lower-footer">
+           <p>Copyright ©2021 All rights reserved | This template is made with <i class="far fa-heart"></i> by <a href="#">Colorlib</a></p>
+        </div>
+    </footer>
+    <!--Footer end-->
+    <script src="/script.js"></script>
+</body>
+</html>
