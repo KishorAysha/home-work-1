@@ -239,19 +239,19 @@ html{
            overflow: hidden; 
        }
        .s1{
-           background-image: url(/img/bannar1.webp);
+           background-image: url(./img/bannar1.webp);
            background-position: center center;
            background-repeat: no-repeat;
            background-size: cover;
        }
        .s2{
-        background-image: url(/img/banner2.png.webp);
+        background-image: url(./img/banner2.png.webp);
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
       }
       .s3{
-        background-image: url(/img/bannar1.webp);
+        background-image: url(./img/bannar1.webp);
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -631,7 +631,7 @@ html{
     }
 
     .s12{
-      background-image: url(/img/2.webp);
+      background-image: url(./img/2.webp);
       background-position: center center;
       background-repeat: no-repeat; 
       background-size:cover;
@@ -639,14 +639,14 @@ html{
       
         }
         .s22{
-        background-image: url(/img/2.png.webp);
+        background-image: url(./img/2.png.webp);
         background-position: center center;
         background-repeat: no-repeat;
         background-size:cover;
         
         }
         .s32{
-        background-image: url(/img/2.webp);
+        background-image: url(./img/2.webp);
         background-position: center center;
         background-repeat: no-repeat;
         background-size:cover;
